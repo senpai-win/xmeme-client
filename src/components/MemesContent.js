@@ -146,10 +146,9 @@ export default class MemesContent extends Component {
           {/* </div> */}
           <MemeForm handleSubmit={this.handleSubmit} />
           {loading ? (
-            <div className="py-72 bg-gray-100">
+            <div className="bg-gray-100 flex justify-center py-72100">
               <img
                 alt="loading....."
-                className="mx-auto"
                 width="48"
                 src={loaderSvg}
               />
