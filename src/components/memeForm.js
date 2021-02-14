@@ -30,6 +30,7 @@ class MemeForm extends Component {
               type="text"
               name="owner"
               placeholder="Enter your full name"
+              required
             />
           </Form.Group>
 
@@ -39,6 +40,7 @@ class MemeForm extends Component {
               type="text"
               name="caption"
               placeholder="Be creative with the caption"
+              required
             />
           </Form.Group>
 
